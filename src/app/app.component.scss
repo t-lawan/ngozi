@@ -1,0 +1,14 @@
+.center-of-page {
+    display: flex;
+    height: 80%;  /* Fallback for browsers do NOT support vh unit */
+    height: 80vh; 
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+.body-class {
+    background-image: url(src/assets/images/background.jpg);
+
+}
+

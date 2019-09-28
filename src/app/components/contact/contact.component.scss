@@ -1,0 +1,10 @@
+i {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+p {
+    &:hover { 
+        cursor: pointer;
+    }
+}

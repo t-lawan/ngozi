@@ -1,0 +1,5 @@
+<ul class="nav justify-content-center">
+  <li *ngFor='let header of headers' class="nav-item">
+    <a class="nav-link" routerLinkActive='active' routerLink='/{{header.link}}'>{{header.title}}</a>
+  </li>
+</ul>

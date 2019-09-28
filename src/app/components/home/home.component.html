@@ -1,0 +1,10 @@
+<div class="flex-row-container center">
+  <div *ngFor='let link of links' class='flex-item space'>
+    <a href="{{ link.url}}" target="{{ link.target}}">
+        <img src='{{link.image_url}}' width="150px" height="150px" class="img-fluid" alt="hello" />
+        <p class="text-center">
+          {{link.title}}
+        </p>
+    </a>
+  </div>
+</div>
