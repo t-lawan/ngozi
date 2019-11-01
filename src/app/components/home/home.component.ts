@@ -16,7 +16,13 @@ export class HomeComponent implements OnInit {
     {
       image_url: '/assets/images/follow.jpg',
       title: 'follow',
-      url: 'https://www.instagram.com/ngz_00_/',
+      url: 'https://www.instagram.com/anja.ngozi/',
+      target: '_blank'
+    },
+    {
+      image_url: '/assets/images/creole_cuts.jpg',
+      title: 'creole cuts',
+      url: 'http://www.mixcloud.com/creolecuts/',
       target: '_blank'
     },
     {

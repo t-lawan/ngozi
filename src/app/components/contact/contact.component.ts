@@ -17,7 +17,7 @@ export class ContactComponent implements OnInit {
   private links: IIconLink[] = [
     {
       class: "fab fa-instagram",
-      url: "https://www.instagram.com/ngz_00_/",
+      url: "https://www.instagram.com/anja.ngozi/",
       target: '_blank'
     },
     {
